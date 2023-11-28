@@ -1,0 +1,38 @@
+From 7d0e82c8de3c2bbbcb5de1b57e71bf7033123168 Mon Sep 17 00:00:00 2001
+From: anglorcas <anglorcas@alum.us.es>
+Date: Tue, 28 Nov 2023 18:58:23 +0100
+Subject: [PATCH] added zebra file
+
+---
+ fichero-cambio.patch | 10 ++++++++++
+ zebra                |  1 +
+ 2 files changed, 11 insertions(+)
+ create mode 100644 fichero-cambio.patch
+ create mode 100644 zebra
+
+diff --git a/fichero-cambio.patch b/fichero-cambio.patch
+new file mode 100644
+index 0000000..c59f5d7
+--- /dev/null
++++ b/fichero-cambio.patch
+@@ -0,0 +1,10 @@
++diff --git a/fichero-cambio.patch b/fichero-cambio.patch
++new file mode 100644
++index 0000000..e69de29
++diff --git a/zebra b/zebra
++new file mode 100644
++index 0000000..97a7d2e
++--- /dev/null
+++++ b/zebra
++@@ -0,0 +1 @@
+++this is a zebra file do not open if you are not a zebra
+diff --git a/zebra b/zebra
+new file mode 100644
+index 0000000..97a7d2e
+--- /dev/null
++++ b/zebra
+@@ -0,0 +1 @@
++this is a zebra file do not open if you are not a zebra
+-- 
+2.34.1
+
